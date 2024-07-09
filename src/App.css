@@ -1,0 +1,112 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.form-container {
+  background-color: #ffffff;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 1.5em;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.75em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+.form-control:focus {
+  border-color: #007BFF;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.error-text {
+  color: red;
+  margin-top: 0.5em;
+  font-size: 0.875em;
+}
+
+.password-container {
+  display: flex;
+  align-items: center;
+}
+
+.password-container .form-control {
+  flex: 1;
+}
+
+.toggle-button {
+  margin-left: 10px;
+  padding: 0.5em 1em;
+  font-size: 0.875rem;
+  color: #007BFF;
+  background-color: transparent;
+  border: 1px solid #007BFF;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toggle-button:hover {
+  background-color: #007BFF;
+  color: #fff;
+}
+
+.progress-bar-wrapper {
+  margin-top: 10px;
+  height: 10px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  border-radius: 5px;
+  transition: width 0.3s ease;
+  border-color: #e5f1fd;
+}
+
+.password-requirements {
+  margin-top: 1em;
+  color: #666;
+  font-size: 0.875em;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 0.75em;
+  font-size: 1em;
+  color: #fff;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
